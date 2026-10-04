@@ -1,0 +1,4 @@
+requests
+# Only needed for the optional Google Search Console pull (gsc_fetch.py):
+# google-api-python-client
+# google-auth

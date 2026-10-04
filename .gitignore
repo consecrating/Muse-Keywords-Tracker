@@ -1,0 +1,19 @@
+# Never commit real secrets
+.env
+.env.local
+.env.*.local
+
+# SerpBear local data (SQLite DB, settings, queues)
+data/
+*.sqlite
+*.sqlite3
+
+# Free tracking engine: local DB, real keyword lists, generated reports
+tracker/data/
+tracker/keywords.csv
+reports/
+suggestions/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
